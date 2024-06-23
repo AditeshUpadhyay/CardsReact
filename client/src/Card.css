@@ -1,0 +1,22 @@
+.card {
+    width: 190px;
+    height: 200px;
+    background-color: rgb(67, 223, 223) !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .card-content {
+    flex-grow: 1;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
